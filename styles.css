@@ -1,14 +1,14 @@
 /*  your css code here. If applicable */
- table {
-            width: 50%;
-            background-color: yellow;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: lightgray;
-        }
+table, th, td {
+    border: 1px solid black; /* Ensuring proper border */
+    border-collapse: collapse; /* Ensuring borders are merged */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    background-color: yellow; /* Ensuring yellow background */
+}
